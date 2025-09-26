@@ -1,0 +1,81 @@
+{
+  "original_prompt": "2bhk japanese style condo in 1200square feet desgin 2d rendered floor plan with labels \n\n\n",
+  "used_prompt": "2 bhk japanese style condo in 1 2 0 0 square feet desgin 2 d rendered floor plan with labels",
+  "negative_prompt": "lowres , blurry , overexposed , text , watermark , logo , distorted , misaligned walls , wrong perspective , bad proportions , artifacts , nsfw",
+  "clip_truncated": {
+    "prompt_truncated": false,
+    "prompt_tokens_used": 23,
+    "prompt_max_tokens": 77,
+    "negative_truncated": false,
+    "negative_tokens_used": 34
+  },
+  "inference": {
+    "width": 512,
+    "height": 512,
+    "steps": 28,
+    "guidance": 7.0,
+    "adapter": "archai_lora",
+    "model": "runwayml/stable-diffusion-v1-5"
+  },
+  "analysis": {
+    "Extracted": {
+      "Climate": "composite",
+      "Style": "modernism",
+      "Material(s)": [
+        "concrete",
+        "glass",
+        "wood"
+      ]
+    },
+    "Recommendations": {
+      "Site Planning": [
+        "Orient primary living to east/south for daylight (Principle 1, 5).",
+        "Built:open ~60:40 for ventilation & landscape (Principle 1).",
+        "Avoid valley bottoms; allow air drainage; stilted plinth if flood-prone (Principle 1).",
+        "Respect neighbors’ right-to-light with green buffers (Principle 1)."
+      ],
+      "Zoning": [
+        "Living/dining as social core; bedrooms quieter wing (Principle 2).",
+        "Separate kitchen/toilets from living (Principle 2, 6).",
+        "Intimacy gradient: public → semi-private → private (Principle 2).",
+        "Thermal zoning: services on cold side, living on warm side (Principle 2).",
+        "Open-plan LDK for interaction when feasible (Principle 2)."
+      ],
+      "Circulation": [
+        "Corridors ≥ 900 mm; minimize dead ends (Principle 3).",
+        "Accessibility: wheelchair turns, wider landings (Principle 3).",
+        "Align axes for clear sightlines (Principle 3).",
+        "Kitchen: separate clean/dirty paths (Principle 3)."
+      ],
+      "Spatial Dimensions": [
+        "Living depth 3.6–4.5 m (Principle 4).",
+        "Kitchen counter 850–900 mm (Principle 4).",
+        "Toilet clear space ≥ 1.5×0.9 m; accessible ≥ 1.5×1.8 m (Principle 4).",
+        "Dining ~1.5 m²/seat + 0.9–1.2 m aisles (Principle 4).",
+        "Bedrooms ≥ 2.7–3.0 m wide; std heights (Principle 4)."
+      ],
+      "Openings": [
+        "Windows 10–20% of room floor area; egress where required (Principle 5).",
+        "Orient living to east/south; add shading (Principle 5).",
+        "Verandas/loggias as climate buffers (Principle 5).",
+        "Cross-ventilation + high-level vents for night purge (Principle 5)."
+      ],
+      "Services": [
+        "Stack kitchens/baths to shorten plumbing (Principle 6).",
+        "Sanitation: sealed drainage; handwash near toilets (Principle 6).",
+        "Kitchen work-triangle; hood over cooktop (Principle 6).",
+        "Utility corridors 1.5–2.0 m; separate potable/storm/electrical (Principle 6).",
+        "Fire safety: detectors, kitchen compartment; sprinklers as required (Principle 6)."
+      ],
+      "Sustainability & Climate": [
+        "Passive solar; south glazing + sized shading (Principle 7).",
+        "Rainwater harvesting + cistern for dry spells (Principle 7).",
+        "Greywater reuse where permitted (Principle 7).",
+        "Cold: compact form + internal thermal mass (Principle 7).",
+        "Daylight (clerestories/skylights); energy ≤ ~15 kWh/m²·yr (Principle 7).",
+        "Local, low-embodied-energy materials (Principle 7)."
+      ]
+    },
+    "Climate Notes": "Operable shading, mixed seasonal strategies."
+  }
+}
